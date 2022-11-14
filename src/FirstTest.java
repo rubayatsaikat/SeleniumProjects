@@ -5,7 +5,7 @@ public class FirstTest {
 		// TODO Auto-generated method stub
 
 		System.out.println("Run Successfully");
-		System.out.println("Run Okay");
+		System.out.println("All Okay");
 		System.out.println("Congrats");
 	}
 
