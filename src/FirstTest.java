@@ -1,6 +1,6 @@
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+//import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class FirstTest {
 
@@ -8,7 +8,7 @@ public class FirstTest {
 		// TODO Auto-generated method stub
 		
 		// Setting the Chrome driver property
-		System.setProperty("webdriver.chrome.driver", "D:\\Selenium\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\chromedriver.exe");
 		//System.setProperty("webdriver.gecko.driver", "D:\\Selenium\\geckodriver.exe");
 		// Instantiate Chrome driver
 		WebDriver driver = new ChromeDriver();
@@ -16,7 +16,9 @@ public class FirstTest {
 		// Opening Google HomePage in Chrome Browser
 		driver.get("https://www.google.com");
 		//driver2.get("https://www.bing.com");
+		
 		//Quitting the driver
+		
 		//driver.quit();
 	}
 
